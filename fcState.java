@@ -7,7 +7,7 @@
 // step1: create .java file
 // step2: edit.java File,save File
 // step3: under cmd, javac .java     -> compile java file
-// step4: java . java                -> run java file
+// step4: java .java                -> run java file
 
 import java.util.Scanner; //header
 
