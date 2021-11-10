@@ -140,6 +140,7 @@ public class fcState {
 				a++;
 			}
 			System.out.println("while ----" + sum);
+			iTemp2.close();
 
 		} catch (Exception e) {
 
