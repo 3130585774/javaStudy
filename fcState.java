@@ -12,6 +12,11 @@
 import java.util.Scanner; //header
 
 public class fcState {
+	/**
+	 *
+	 */
+	private static final Scanner SCANNER = new Scanner(System.in);
+
 	public static void main(String[] args) {
 		try {
 			// 20211023
@@ -125,7 +130,7 @@ public class fcState {
 			System.out.println("please imput Integer");
 			int iTemp2; // accept keyboard input
 
-			iTemp2 = new Scanner(System.in).nextInt();
+			iTemp2 = SCANNER.nextInt();
 
 			System.out.println("input INT = " + iTemp2);
 			sum = 0;
@@ -140,7 +145,6 @@ public class fcState {
 				a++;
 			}
 			System.out.println("while ----" + sum);
-			iTemp2.close();
 
 		} catch (Exception e) {
 
