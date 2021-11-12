@@ -13,7 +13,7 @@ import java.util.Scanner; //header
 
 public class fcState {
 	/**
-	 *
+	 java 学习
 	 */
 	private static final Scanner SCANNER = new Scanner(System.in);
 
