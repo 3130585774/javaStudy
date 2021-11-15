@@ -153,6 +153,7 @@ public class fcState {
 			System.out.println("while ----" + sum2);
 
 		} catch (Exception e) {
+			System.out.println("Error!");
 
 		} finally {
 			System.out.println("This is finally");
