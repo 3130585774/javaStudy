@@ -15,7 +15,7 @@ public class fcState {
 	/*
 	 * java 学习
 	 */
-	//private static final Scanner SCANNER = new Scanner(System.in);
+	private static final Scanner SCANNER = new Scanner(System.in);
 
 	public static void main(String[] args) {
 		try {
@@ -130,21 +130,20 @@ public class fcState {
 			System.out.println(sum);
 
 			// 20211110
-			System.out.println("please imput Integer");
-			int iTemp2; // accept keyboard input
+			System.out.println("please imput Integer"); // accept keyboard input
 			int sum2 = 0;
-			// iTemp2 = SCANNER.nextInt();
-			iTemp2 = 41;
-			System.out.println("input INT = " + iTemp2);
+			iTemp = SCANNER.nextInt();
+
+			System.out.println("input INT = " + iTemp);
 			sum2 = 0;
-			for (int a = 1; a <= iTemp2; a++) {
-				sum2 += iTemp2;
+			for (int a = 1; a <= iTemp; a++) {
+				sum2 += iTemp;
 			}
 			System.out.println("for ----" + sum2);
 			int a = 1;
 			sum2 = 0;
-			while (a <= iTemp2) {
-				sum2 += iTemp2;
+			while (a <= iTemp) {
+				sum2 += iTemp;
 				a++;
 			}
 			System.out.println("while ----" + sum2);
