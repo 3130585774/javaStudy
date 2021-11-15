@@ -13,7 +13,7 @@ import java.util.Scanner; //header
 
 public class fcState {
 	/*
-	 java 学习
+	 * java 学习
 	 */
 	private static final Scanner SCANNER = new Scanner(System.in);
 
@@ -38,7 +38,6 @@ public class fcState {
 			}
 			// System.out.println("This is finally");
 
-
 			// 20211025
 			int iTemp;
 			iTemp = (int) (Math.random() * 100 + 1);// [1,100]
@@ -52,7 +51,8 @@ public class fcState {
 			}
 			System.out.println("running out of if");
 			// 20211027
-			// [0,10) [10,20) [20,30) [30,40) [40,50) [50,60) [60,70) [70,80) [80,90) [90,100]
+			// [0,10) [10,20) [20,30) [30,40) [40,50) [50,60) [60,70) [70,80) [80,90)
+			// [90,100]
 			iTemp = (int) (Math.random() * 100 + 1);// [1,100]
 			if ((iTemp >= 0) && (iTemp < 10)) {
 				System.out.println("iTemp = " + iTemp);
@@ -96,7 +96,6 @@ public class fcState {
 			// false out of loop
 			System.out.println("after while");
 
-
 			// 20211103
 			// sum [1-100]The sum of the occasional
 			iTempLoop = 2;
@@ -108,7 +107,6 @@ public class fcState {
 				iTempLoop += 2;
 			}
 			System.out.println("sum = " + sum);
-
 
 			// 20211108
 			for (int i = 0; i <= 100; i++) {
@@ -131,13 +129,12 @@ public class fcState {
 			}
 			System.out.println(sum);
 
-
 			// 20211110
 			System.out.println("please imput Integer");
 			int iTemp2; // accept keyboard input
 			int sum2 = 0;
-			iTemp2 = SCANNER.nextInt();
-
+			// iTemp2 = SCANNER.nextInt();
+			iTemp2 = 41;
 			System.out.println("input INT = " + iTemp2);
 			sum2 = 0;
 			for (int a = 1; a <= iTemp2; a++) {
@@ -151,22 +148,22 @@ public class fcState {
 				a++;
 			}
 			System.out.println("while ----" + sum2);
-			
-			//202111151410
+
+			// 202111151410
 			iTemp = (int) (Math.random() * 20 + 1);
 			int iN = iTemp;
 			int i = 1;
 			System.out.println(iN);
 			while (i <= iN) {
-            for (int j = 0; j < iN - i; j++) {
-                System.out.print(" ");
-            }
-            for (int j = 0; j < 2 * i - 1; j++) {
-                System.out.print((char) (i + 64));
-            }
-            System.out.println("");
-            i++;
-
+				for (int j = 0; j < iN - i; j++) {
+					System.out.print(" ");
+				}
+				for (int j = 0; j < 2 * i - 1; j++) {
+					System.out.print((char) (i + 64));
+				}
+				System.out.println("");
+				i++;
+			}
 		} catch (Exception e) {
 			System.out.println("Error!");
 
