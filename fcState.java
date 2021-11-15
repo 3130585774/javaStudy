@@ -135,22 +135,22 @@ public class fcState {
 			// 20211110
 			System.out.println("please imput Integer");
 			int iTemp2; // accept keyboard input
-
+			int sum2 = 0;
 			iTemp2 = SCANNER.nextInt();
 
 			System.out.println("input INT = " + iTemp2);
-			sum = 0;
+			sum2 = 0;
 			for (int a = 1; a <= iTemp2; a++) {
-				sum += iTemp2;
+				sum2 += iTemp2;
 			}
-			System.out.println("for ----" + sum);
+			System.out.println("for ----" + sum2);
 			int a = 1;
-			sum = 0;
+			sum2 = 0;
 			while (a <= iTemp2) {
-				sum += iTemp2;
+				sum2 += iTemp2;
 				a++;
 			}
-			System.out.println("while ----" + sum);
+			System.out.println("while ----" + sum2);
 
 		} catch (Exception e) {
 
