@@ -15,7 +15,7 @@ public class fcState {
 	/*
 	 * java 学习
 	 */
-	private static final Scanner SCANNER = new Scanner(System.in);
+	//private static final Scanner SCANNER = new Scanner(System.in);
 
 	public static void main(String[] args) {
 		try {
