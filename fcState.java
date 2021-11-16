@@ -159,7 +159,7 @@ public class fcState {
 				}
 				for (int j = 0; j < 2 * i - 1; j++) {
 					System.out.print((char) (i + 64));
-					System.out.println("*");
+					//System.out.println("*");
 				}
 				System.out.println("");
 				i++;
