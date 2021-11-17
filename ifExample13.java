@@ -12,7 +12,7 @@ public class ifExample13 {
     try {
       int sum = 0;
       int i = 1;
-      for (; i <= 10;) {
+      for (; i <= 10;i++) {
         sum += i;
       }
       System.out.println("1+2+...+10=" + sum);

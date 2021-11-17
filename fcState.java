@@ -132,8 +132,8 @@ public class fcState {
 			// 20211110
 			System.out.println("please imput Integer"); // accept keyboard input
 			int sum2 = 0;
-			iTemp = SCANNER.nextInt();
-
+			//iTemp = SCANNER.nextInt();
+			iTemp = 41;
 			System.out.println("input INT = " + iTemp);
 			sum2 = 0;
 			for (int a = 1; a <= iTemp; a++) {
@@ -154,12 +154,17 @@ public class fcState {
 			int i = 1;
 			System.out.println(iN);
 			while (i <= iN) {
+				if(i%2==0){
+					i++;
+					System.out.println("");
+					continue;
+				}
 				for (int j = 0; j < iN - i; j++) {
 					System.out.print(" ");
 				}
 				for (int j = 0; j < 2 * i - 1; j++) {
-					System.out.print((char) (i + 64));
-					//System.out.println("*");
+					//System.out.print((char) (i + 64));
+					System.out.print("*");
 				}
 				System.out.println("");
 				i++;
