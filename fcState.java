@@ -149,7 +149,8 @@ public class fcState {
 			System.out.println("while ----" + sum2);
 
 			// 202111151410
-			iTemp = (int) (Math.random() * 20 + 1);
+			//iTemp = (int) (Math.random() * 20 + 1);
+			iTemp = SCANNER.nextInt();
 			int iN = iTemp;
 			int i = 1;
 			System.out.println(iN);
@@ -172,7 +173,7 @@ public class fcState {
 		} catch (Exception e) {
 			System.out.println("Error!");
 
-		} finally {
+		} finally{
 			System.out.println("This is finally");
 		}
 	}
