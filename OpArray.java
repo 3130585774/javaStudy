@@ -46,10 +46,11 @@ public class OpArray {
 			for (int i = 1; i < SZARRAY; i++) {
 				if (iarr[0] == iarr[i]) {
 					System.out.println(iFound + " is found");
+					System.exit(0);
 				}
-				else {
-					System.out.println(iFound + " is not found");}
 			}
+			System.out.println(iFound + " not found");
+
 		} catch (Exception e) {
 
 		}
