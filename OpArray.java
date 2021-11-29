@@ -47,7 +47,8 @@ public class OpArray {
 				if (iarr[0] == iarr[i]) {
 					System.out.println(iFound + " is found");
 				}
-				else System.out.println(iFound + " is not found");
+				else {
+					System.out.println(iFound + " is not found");}
 			}
 		} catch (Exception e) {
 
