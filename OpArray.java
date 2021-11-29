@@ -17,7 +17,7 @@ public class OpArray {
 
 			// size of array 2 n
 			// size is not real num
-
+			
 			char[] arrTemp = new char[SZARRAY];
 
 			for (int i = 0; i < SZARRAY; i++) {
@@ -47,8 +47,8 @@ public class OpArray {
 				if (iarr[0] == iarr[i]) {
 					System.out.println(iFound + " is found");
 				}
+				else System.out.println(iFound + " is not found");
 			}
-			System.out.println("Can found");
 		} catch (Exception e) {
 
 		}
