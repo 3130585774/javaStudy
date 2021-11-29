@@ -18,7 +18,7 @@ public class OpArray {
 			// size of array 2 n
 			// size is not real num
 
-			char[] arrTemp = new char[SZARRAY];
+			var arrTemp = new char[SZARRAY];
 
 			for (int i = 0; i < SZARRAY; i++) {
 				arrTemp[i] = (char) (cTemp + i);
@@ -40,7 +40,7 @@ public class OpArray {
 			iarr[0] = iFound;
 			for (int i = 0; i < SZARRAY; i++)
 			{
-				System.out.println(iarr[i] + "   ");
+				System.out.println(iarr[i]);
 			}
 			System.out.println("");
 			for (int i = 1; i < SZARRAY; i++) {
