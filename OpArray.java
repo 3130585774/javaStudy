@@ -46,7 +46,7 @@ public class OpArray {
 			for (int i = 1; i < SZARRAY; i++) {
 				if (iarr[0] == iarr[i]) {
 					System.out.println(iFound + " is found");
-					System.exit(0);
+					System.exit(0); //退出程序
 				}
 			}
 			System.out.println(iFound + " not found");
