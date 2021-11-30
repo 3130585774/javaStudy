@@ -1,6 +1,6 @@
 public class OpArray {
 	// main: ontrance of function
-	static final int SZARRAY = 16;
+	static final int SZARRAY = 1000;
 
 	public static void main(String[] args) {
 
@@ -26,29 +26,35 @@ public class OpArray {
 			System.out.println("arrTemp = " + arrTemp);
 
 			for (int i = 0; i < SZARRAY; i++) {
-
 				System.out.print(arrTemp[i] + " ");
 			}
 			System.out.println("");
 
 			// 20211129 1419
 			int[] iarr = new int[SZARRAY];
+
+
 			for (int i = 1; i < SZARRAY; i++) {
 				iarr[i] = (int) (Math.random() * 100 + 1);
 			}
+
 			int iFound = (int) (Math.random() * 100 + 1);
+
 			iarr[0] = iFound;
+
 			for (int i = 0; i < SZARRAY; i++)
 			{
-				System.out.println(iarr[i]);
+				System.out.println(iarr[i] + "   iarr["+i+"]");
 			}
 			System.out.println("");
+			
 			for (int i = 1; i < SZARRAY; i++) {
 				if (iarr[0] == iarr[i]) {
 					System.out.println(iFound + " is found");
 					System.exit(0); //退出程序
 				}
 			}
+
 			System.out.println(iFound + " not found");
 
 		} catch (Exception e) {
