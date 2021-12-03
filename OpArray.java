@@ -68,7 +68,7 @@ public class OpArray {
 			}
 			float adv = (float)iarrsum / SZARRAY;
 			System.out.println("iFound appear "+con);
-			System.out.println("bigger than iFound have"+bigthan);
+			System.out.println("bigger than iFound have "+bigthan);
 			System.out.println("advtage = "+adv);
 
 		} catch (Exception e) {
