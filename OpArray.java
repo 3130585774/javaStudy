@@ -17,13 +17,13 @@ public class OpArray {
 
 			// size of array 2 n
 			// size is not real num
-			
+
 			char[] arrTemp = new char[SZARRAY];
 
 			for (int i = 0; i < SZARRAY; i++) {
 				arrTemp[i] = (char) (cTemp + i);
 			}
-			System.out.println("arrTemp = " + arrTemp);
+			System.out.println("arrTemp = " + String.valueOf(arrTemp));
 
 			for (int i = 0; i < SZARRAY; i++) {
 				System.out.print(arrTemp[i] + " ");
@@ -44,12 +44,11 @@ public class OpArray {
 
 			iarr[0] = iFound;
 
-			for (int i = 0; i < SZARRAY; i++)
-			{
+			for (int i = 0; i < SZARRAY; i++) {
 				System.out.println(iarr[i]);
 			}
 			System.out.println("");
-			
+
 			boolean bF = false;
 			int con = 0;
 			int bigthan = 0;
@@ -59,17 +58,17 @@ public class OpArray {
 					bF = true;
 					con += 1;
 				}
-				if(iarr[0] < iarr[i]){
+				if (iarr[0] < iarr[i]) {
 					bigthan += 1;
 				}
 			}
-			if (bF == false){
-			System.out.println(iFound + " not found");
+			if (bF == false) {
+				System.out.println(iFound + " not found");
 			}
-			float adv = (float)iarrsum / SZARRAY;
-			System.out.println("iFound appear "+con);
-			System.out.println("bigger than iFound have "+bigthan);
-			System.out.println("advtage = "+adv);
+			float adv = (float) iarrsum / SZARRAY;
+			System.out.println("iFound appear " + con);
+			System.out.println("bigger than iFound have " + bigthan);
+			System.out.println("advtage = " + adv);
 
 		} catch (Exception e) {
 
